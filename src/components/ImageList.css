@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(73, 69, 69);
+}
+
+.ui .field h1{
+   
+    color: white;
+    margin-bottom: 16px;
+}
+
+.ui .segment{
+    background-color: rgb(46, 46, 46);
+}
+
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr)); /*columns will be 250px wide*/
+    grid-gap: 0 10px;
+    grid-auto-rows: 10px; /*height of the rows or cells in the grid*/
+}
+
+.image-list img{
+    grid-row-end: span 2;
+    width: 250px;
+}
+
+
+
